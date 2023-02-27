@@ -8,11 +8,8 @@ body {
     background: url('../images/hero-image.jpg') no-repeat center center;
 }
 
-cover-text, #cover-text h1 h2 {
+#cover-text, #cover-text h1 h2 {
     color: white;
-}
-
-#cover-h1 {
     font-size: 130%;
     text-transform: uppercase;
 
@@ -24,16 +21,14 @@ cover-text, #cover-text h1 h2 {
     left: 60px;
     position: absolute;
 }
-
-#cover-h2 {
-    font-size: 130%;
-    text-transform: uppercase;
-
-    width: 300px;
-
-    background-color: rgba(241, 109, 107, .3);
-    
-    top: 250px ;
-    left: 60px;
-    position: absolute;
 }
+
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    
+    position: relative;
+}
+
+
