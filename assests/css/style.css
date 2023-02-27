@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Shantell+Sans:wght@500&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Shantell Sans;
 }
 
 /* header */
-
+h1 {
+    font-family: Chewy;
+}
 
 /* hero-image */
 #hero-image {
@@ -23,17 +31,15 @@ body {
 
     background-color: rgba(241, 109, 107, .3);
 
-    top: 200px ;
+    top: 200px;
     left: 60px;
     position: absolute;
 }
 
-#hero-outer{
+#hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
-    
+
     position: relative;
 }
-
-
