@@ -8,7 +8,7 @@ body {
     background: url('../images/hero-image.jpg') no-repeat center center;
 }
 
-#cover-text, #cover-text h1 h2 {
+#cover-text {
     color: white;
     font-size: 130%;
     text-transform: uppercase;
