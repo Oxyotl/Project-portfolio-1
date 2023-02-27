@@ -1,8 +1,26 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+/* hero-image */
 #hero-image {
     height: 600px;
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
+}
+
+cover-text, #cover-text h1 h2 {
+    color: white;
+}
+
+#cover-h1 {
+    font-size: 130%;
+    text-transform: uppercase;
+
+    width: 300px;
+
+    background-color: rgba(241, 109, 107, .3);
+
+    top: 200px ;
+    left: 60px;
+    position: absolute;
 }
