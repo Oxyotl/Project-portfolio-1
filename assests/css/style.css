@@ -24,3 +24,16 @@ cover-text, #cover-text h1 h2 {
     left: 60px;
     position: absolute;
 }
+
+#cover-h2 {
+    font-size: 130%;
+    text-transform: uppercase;
+
+    width: 300px;
+
+    background-color: rgba(241, 109, 107, .3);
+    
+    top: 250px ;
+    left: 60px;
+    position: absolute;
+}
