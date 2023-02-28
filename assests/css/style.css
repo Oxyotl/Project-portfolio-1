@@ -7,13 +7,9 @@
 }
 
 body {
-    font-family: Shantell Sans;
+    font-family: Shantell Sans, sans-serif;
 }
 
-/* header */
-h1 {
-    font-family: Chewy;
-}
 
 /* hero-image */
 #hero-image {
@@ -42,8 +38,18 @@ h1 {
     overflow: hidden;
 
     position: relative;
+
 }
- /* navigation links */
+
+/* header */
+#logo {
+    font-family: Chewy, sans-serif;
+    float: left;
+    color: blue;
+    line-height: 50px;
+}
+
+/* navigation links */
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -52,7 +58,14 @@ h1 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 30px;   
+    line-height: 50px; 
 }
-       
-       
+
+#menu a {
+    text-decoration: none;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid red;
+}
