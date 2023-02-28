@@ -73,7 +73,7 @@ body {
 /* about us section */
 
 #central-section {
-    background-color: rgba(225, 220, 225, .7)
+    background-color: rgba(225, 220, 225, .7);
 }
 
 #about-us {
@@ -102,4 +102,22 @@ body {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+/* footer */
+footer {
+    height: 250px;
+    text-align: center;
+    background-color:  rgba(225, 220, 225, .7) ;
+}
+
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: red;
 }
