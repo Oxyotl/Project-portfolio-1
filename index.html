@@ -13,19 +13,19 @@
 <body>
     <!-- Style headerr -->
     <header>
-        <a href="index.html">
+        <a>
             <h1 id="logo">Waingunga group</h1>
         </a>
-        <nav>           
+        <nav>
             <ul id="menu">
                 <li>
-                    <a href="index.html">Contact</a>
+                    <a href="#contact" aria-label="Go to contact section">Contact</a>
                 </li>
                 <li>
-                    <a href="#">Join Scout</a>
+                    <a href="#form" aria-label="Go to form section">Join Scout</a>
                 </li>
                 <li>
-                    <a href="#">About us</a>
+                    <a href="#about-us" aria-label="Go to about us section">About us</a>
                 </li>
             </ul>
         </nav>
@@ -35,28 +35,29 @@
         <div id="hero-image"></div>
         <div id="cover-text">
             <h2>Preparing young people with the skills for life</h1>
-            <h3 id="cover-h3">SSSSSSSSxcscdsc</h3>
+                <h3 id="cover-h3">SSSSSSSSxcscdsc</h3>
         </div>
     </section>
 
 
     <div></div>
     <!-- First link-->
-    <section>
-        <h2>About us</h2>
+    <section id="central-section">
+        <h2 id="about-us">About us</h2>
         <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>-Everyone’s welcome here. All genders, races ,backgrounds and religions</li>
+            <li>-Regardless of the child’s physical ability we are raedy to show them what a Scout adventure is</li>
+            <li>-We give them the skills they need for schools, college, university, the job interview and in a broader
+                sense: the skills they need for life</li>
         </ul>
-        <p></p>
+        <p>All children of age 8-16 can easily come during weekends and have a look at what we do, we just ask you the
+            form below to let us know how many children will be present each meeting.
+            We hope to see you soon !</p>
     </section>
 
-    <section>
-        <h2>Join Scout</h2>
-        <!-- put the correct link for action -->
-        <form action=""></form>
-        <fieldset>
+    <section id="form-section">
+        <h2 id="form">Join Scout</h2>
+        <fieldset id="inputs">
             <div>
                 <label for="c-name-field">Child's Name</label>
                 <input id="c-name-field" type="c-name" name="full_c-name">
@@ -70,19 +71,19 @@
                 <input id="email-field" type="email" name="email">
             </div>
         </fieldset>
-        <button type="submit">
+        <button type="submit" id="button">
             <strong>Submit</strong>
         </button>
     </section>
     <!-- Third link -->
     <footer>
-        <h2>Contact us</h2>
+        <h2 id="contact">Contact us</h2>
         <ul>
             <!-- The icon doesn't work, check -->
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener"
                     aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-   
+
         </ul>
     </footer>
 </body>
