@@ -10,6 +10,51 @@ body {
     font-family: Shantell Sans, sans-serif;
 }
 
+/* header */
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100vw;
+
+    background-color: rgb(241, 109, 107);
+    
+}
+
+#logo {
+    font-family: Chewy, sans-serif;
+    float: left;
+    color: blue;
+    line-height: 50px;
+    font-size: 250%;
+}
+
+#logo:hover {
+    color: black;
+}
+
+
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    line-height: 50px;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: black;
+}
 
 /* hero-image */
 #hero-image {
@@ -41,34 +86,6 @@ body {
 
 }
 
-/* header */
-#logo {
-    font-family: Chewy, sans-serif;
-    float: left;
-    color: blue;
-    line-height: 50px;
-}
-
-/* navigation links */
-#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-    line-height: 50px;
-}
-
-#menu a {
-    text-decoration: none;
-}
-
-#menu a:hover {
-    border-bottom: 1px solid red;
-}
 
 /* about us section */
 
@@ -108,10 +125,10 @@ body {
 footer {
     height: 250px;
     text-align: center;
-    background-color:  rgba(225, 220, 225, .7) ;
+    background-color: rgba(225, 220, 225, .7);
 }
 
-.social-media > li {
+.social-media>li {
     display: inline;
 }
 
