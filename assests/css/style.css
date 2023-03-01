@@ -275,6 +275,7 @@ footer {
  @media screen and (max-width: 660px) {
     
     #menu {
+        text-align: center;
         clear: left;
         float: left;
         margin-bottom: 20px;
