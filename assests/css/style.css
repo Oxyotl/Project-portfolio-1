@@ -18,7 +18,7 @@ header {
     z-index: 1;
     width: 100vw;
 
-    background-color: rgb(241, 109, 107);
+    background-color: rgba(241, 109, 107, .8);
 
 }
 
@@ -28,6 +28,7 @@ header {
     color: blue;
     line-height: 50px;
     font-size: 250%;
+    margin-left: 10px;
 }
 
 #logo:hover {
@@ -38,7 +39,7 @@ header {
 
 #menu {
     font-size: 110%;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }
 
 #menu li {
@@ -219,3 +220,17 @@ footer {
 .social-media i:hover {
     color: black;
 }
+
+/* Media queries */
+
+/* From 830px down */
+ @media screen and (max-width: 830px) {
+    
+    #menu {
+        clear: left;
+        clear: right;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        line-height: 25px;
+    }
+ }
