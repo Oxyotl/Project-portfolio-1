@@ -19,7 +19,7 @@ header {
     width: 100vw;
 
     background-color: rgba(241, 109, 107, .8);
-
+ 
 }
 
 #logo {
@@ -29,6 +29,7 @@ header {
     line-height: 50px;
     font-size: 250%;
     margin-left: 10px;
+    letter-spacing: 2px;
 }
 
 #logo:hover {
@@ -45,7 +46,7 @@ header {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 25px;
     line-height: 50px;
 }
 
@@ -70,18 +71,18 @@ header {
     font-size: 130%;
     text-transform: uppercase;
 
-    width: 30%;
+    width: 25%;
 
     background-color: rgba(0, 0, 0, .7);
 
     top: 20%;
-    left: 10%;
+    left: 15%;
     position: absolute;
 
 }
 
 #text-itself {
-    padding: 10px;
+    padding: 20px;
 }
 
 #hero-outer {
@@ -118,6 +119,7 @@ header {
 
 #about-us-list {
     font-size: 110%;
+    line-height: 50px;
 }
 
 /* gallery */
@@ -223,8 +225,8 @@ footer {
 
 /* Media queries */
 
-/* From 830px down */
- @media screen and (max-width: 830px) {
+/* From 850px down */
+ @media screen and (max-width: 850px) {
     
     #menu {
         clear: left;
@@ -232,5 +234,61 @@ footer {
         margin-bottom: 10px;
         margin-top: 10px;
         line-height: 25px;
+        letter-spacing: normal;
     }
+    #menu li {
+        float: right;
+        list-style-type: none;
+        margin-right: 7px;
+        line-height: 50px;
+    }
+
+    #cover-text {
+        color: white;
+        font-size: 130%;
+        text-transform: uppercase;
+    
+        width: 75%;
+    
+        background-color: rgba(0, 0, 0, .7);
+    
+        top: 20%;
+        left: 15%;
+        right: 15%;
+        position: absolute;
+    }
+
+    #gallery {
+        clear: both;
+        line-height: 10px;
+        column-count: 3;
+        column-gap: 0;
+    
+        margin-top: 10px;
+    }
+    
+
+ }
+
+/* from 480 down */
+
+ @media screen and (max-width: 660px) {
+    
+    #menu {
+        clear: left;
+        float: left;
+        margin-bottom: 20px;
+        margin-left: 30px;
+        line-height: 25px;
+    }
+
+    #gallery {
+        clear: both;
+        line-height: 10px;
+        column-count: 2;
+        column-gap: 0;
+    
+        margin-top: 10px;
+    }
+    
  }
