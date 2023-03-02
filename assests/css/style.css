@@ -8,7 +8,7 @@
 
 body {
     font-family: Shantell Sans, sans-serif;
-}
+} 
 
 /* header */
 
@@ -16,24 +16,24 @@ header {
     position: fixed;
     top: 0;
     z-index: 1;
-    width: 100vw;
+    width: 100%;
 
-    background-color: rgba(241, 109, 107, .8);
+    background-color: rgba(204, 153, 102, .8);
  
 }
 
 #logo {
-    font-family: Chewy, sans-serif;
+    font-family: Shantell Sans, sans-serif;
     float: left;
-    color: blue;
+    color: black;
     line-height: 50px;
     font-size: 250%;
     margin-left: 10px;
-    letter-spacing: 2px;
+
 }
 
 #logo:hover {
-    color: black;
+    color: rgb(60, 102, 3);
 }
 
 
@@ -52,10 +52,11 @@ header {
 
 #menu a {
     text-decoration: none;
+    color: black;
 }
 
 #menu a:hover {
-    color: black;
+    color: rgb(60, 102, 3);
 }
 
 /* hero-image */
@@ -73,7 +74,7 @@ header {
 
     width: 25%;
 
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .6);
 
     top: 20%;
     left: 15%;
@@ -98,9 +99,9 @@ header {
 /* about us section */
 
 #central-section {
-    background-color: rgba(225, 220, 225, .7);
+    background-color: rgba(222, 220, 225, 0.4);
     line-height: 200%;
-    margin-top: 10px;
+    
 }
 
 #about-us {
@@ -133,6 +134,13 @@ header {
     margin-top: 10px;
 }
 
+#gallery-title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 200%;
+    color: rgb(60, 102, 3);
+}
+
 #gallery>img {
     width: 100%;
 }
@@ -146,32 +154,39 @@ header {
     margin-bottom: 20px;
 }
 
-#form-section>p {
-    font-size: 110%;
-}
-
 #form {
     font-size: 200%;
     color: rgb(60, 102, 3);
 }
 
+#form-section>p {
+    font-size: 120%;
+    width: 90%;
+}
+
+
 #inputs {
     width: 100%;
     padding: 12px 20px;
-    margin: 8px;
+    margin: 10px;
     box-sizing: border-box;
     border: 1px;
-    line-height: 300%;
+    line-height: 200%;
+
+    color: blue;
 }
 
 #c-name-field {
     border: 2px solid;
     padding: 3px 10px;
+    margin-bottom: 30px;
+
 }
 
 #p-g-name-field {
     border: 2px solid;
     padding: 3px 10px;
+    margin-bottom: 30px;
 }
 
 #email-field {
@@ -225,6 +240,23 @@ footer {
 
 /* Media queries */
 
+/* From 1450 down */
+@media screen and (max-width: 1450px) {
+
+    #cover-text {
+        color: white;
+        font-size: 100%;
+    
+        width: 30%;
+    
+    
+        top: 20%;
+        left: 15%;
+        right: 15%;
+        position: absolute;
+    }
+}
+
 /* From 850px down */
  @media screen and (max-width: 850px) {
     
@@ -243,20 +275,7 @@ footer {
         line-height: 50px;
     }
 
-    #cover-text {
-        color: white;
-        font-size: 130%;
-        text-transform: uppercase;
-    
-        width: 75%;
-    
-        background-color: rgba(0, 0, 0, .7);
-    
-        top: 20%;
-        left: 15%;
-        right: 15%;
-        position: absolute;
-    }
+
 
     #gallery {
         clear: both;
@@ -292,4 +311,7 @@ footer {
         margin-top: 10px;
     }
     
+    #cover-text {
+        width: 60%;
+    }
  }
