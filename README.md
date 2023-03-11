@@ -1,6 +1,7 @@
 # Waingunga group
 
 Waingunga group is a website that aim to let people know about our Scout community and hopes to inspire someone to get part of it. The site is targeted to parents that want to let their children experience the Scout world, which will prepare them with skills for life. 
+
 ## FEATURES
  
 
@@ -53,9 +54,17 @@ Clearly states that no requirements are needed either by the children or the par
 
 ## Deployment
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
-    - 
+    - Log in to GitHub and locate the GitHub Repository
+    - At the top of the Repository, locate the "Settings" Button on the menu.
+    - Scroll down the Settings page until you locate the "Pages" Section.
+    - Under "Branch", click the dropdown called "None" and select "main".
+    - Refresh the page and you should be able to click on the site link.
+
 
 ## Credits
 - ### Code
-    - Few snippets of code wre taken from these two sites [W3Schools Online Web Tutorials](https://www.w3schools.com/default.asp#gsc.tab=0&gsc.q=screen%20scale), [Stack Overflow](https://stackoverflow.com/)
-    
+    - Few snippets of code wre taken from these two sites [W3Schools Online Web Tutorials](https://www.w3schools.com/default.asp#gsc.tab=0&gsc.q=screen%20scale), [Stack Overflow](https://stackoverflow.com/).
+- ### Media 
+    - All images were taken from [Pexels](https://www.pexels.com/it-it/).
+- ### Acknowledgments
+    - My mentor really helped me with very usefull feedbacks.
