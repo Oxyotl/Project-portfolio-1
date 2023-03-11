@@ -35,10 +35,9 @@ header {
 
 }
 
-#logo:hover {
-    color: rgb(60, 102, 3);
+#logo :hover {
+    color: none;
 }
-
 
 
 #menu {
@@ -191,14 +190,14 @@ header {
     color: rgb(60, 102, 3);
 }
 
-#c-name-field {
+#name-field {
     border: 2px solid;
     padding: 3px 10px;
     margin-bottom: 30px;
 
 }
 
-#p-g-name-field {
+#parent-name-field {
     border: 2px solid;
     padding: 3px 10px;
     margin-bottom: 30px;

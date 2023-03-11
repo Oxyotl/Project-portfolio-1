@@ -1,6 +1,7 @@
 # Waingunga group
 
 Waingunga group is a website that aim to let people know about our Scout community and hopes to inspire someone to get part of it. The site is targeted to parents that want to let their children experience the Scout world, which will prepare them with skills for life. 
+<h2 align="center"><img src"assests/images/screenshot-website.png"></h2>
 
 ## FEATURES
  
@@ -49,7 +50,7 @@ Clearly states that no requirements are needed either by the children or the par
 ## Testing 
 
 - errors found when using [W3C validator](https://validator.w3.org) 
-- errors found when using [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+- No errors found when using [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
 
 
 ## Deployment
@@ -59,12 +60,14 @@ Clearly states that no requirements are needed either by the children or the par
     - Scroll down the Settings page until you locate the "Pages" Section.
     - Under "Branch", click the dropdown called "None" and select "main".
     - Refresh the page and you should be able to click on the site link.
+- Here you can find the live link: (https://oxyotl.github.io/Project-portfolio-1/)
 
 
 ## Credits
 - ### Code
-    - Few snippets of code wre taken from these two sites [W3Schools Online Web Tutorials](https://www.w3schools.com/default.asp#gsc.tab=0&gsc.q=screen%20scale), [Stack Overflow](https://stackoverflow.com/).
+    - Few snippets of code wre taken from these two sites [W3Schools](https://www.w3schools.com/default.asp#gsc.tab=0&gsc.q=screen%20scale), [Stack Overflow](https://stackoverflow.com/).
 - ### Media 
     - All images were taken from [Pexels](https://www.pexels.com/it-it/).
+    - The social media icons are from [Font Awesome](https://fontawesome.com/)
 - ### Acknowledgments
     - My mentor really helped me with very usefull feedbacks.
