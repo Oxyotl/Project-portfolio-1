@@ -51,7 +51,7 @@ Clearly states that no requirements are needed either by the children or the par
 
 ## Testing 
 
-- errors found when using [W3C validator](https://validator.w3.org) 
+- No errors found when using [W3C validator](https://validator.w3.org) 
 - No errors found when using [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
 
 
