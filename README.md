@@ -1,7 +1,7 @@
 # Waingunga group
 
 Waingunga group is a website that aim to let people know about our Scout community and hopes to inspire someone to get part of it. The site is targeted to parents that want to let their children experience the Scout world, which will prepare them with skills for life. 
-<h2 align="center"><img src"assests/images/screenshot-website.png"></h2>
+<h2 align="center"><img src="assests/images/screenshot-website.png"></h2>
 
 ## FEATURES
  
@@ -16,36 +16,38 @@ Waingunga group is a website that aim to let people know about our Scout communi
 
 ### Navigation bar
 
-- The navigation bar is the main tool for the user in order to navigate on the site, through the menu and the logo it's easy to move to the different sections.
+- The navigation bar is the main tool for the user in order to navigate on the site, through the menu it's easy to move to the different sections of the webpage.
+<h2 align="center"><img src="assests/images/navigation-bar.png"></h2>
+
 
 
 ### Main image
 
 - This image paired with the text overlay helps the user immediatly understand the aim of the website.
-
+<h2 align="center"><img src="assests/images/main-image.png"></h2>
 
 ### About us
 
 - The about us section allow an easy overlook on the opportunities the children joining will be experiencing.
 Clearly states that no requirements are needed either by the children or the parents when joining.
-
+<h2 align="center"><img src="assests/images/about-us.png"></h2>
 
 ### Gallery
 
 - The gallery it's a collection of images that show the user what to expect, especially for the children.
 - This simple activities are just a fraction of all the experiences, but good enough to see how scouting works.
-
+<h2 align="center"><img src="assests/images/gallery.png"></h2>
 
 ### Join Scout
 
 - This section is more relevant for the devloper and not the user, in fact it's the only requirement throughout the entire website and it's essential for he organisers.
-
+<h2 align="center"><img src="assests/images/form.png"></h2>
 
 ### Footer
 
 - The footer includes both relevant contact information and the social media sites. The links will open to a new tab 
  for an easier navigation.
-
+<h2 align="center"><img src="assests/images/contact-us.png"></h2>
 
 ## Testing 
 
